@@ -41,43 +41,16 @@ Wire Wire Line
 	2625 1600 2675 1600
 Wire Wire Line
 	2675 1700 2625 1700
-$Comp
-L elements:Вилка_PLD6_ПРОГ XP3
-U 1 1 5C1D580F
-P 9575 1825
-F 0 "XP3" H 9575 2262 60  0000 C CNN
-F 1 "Вилка_PLD6_ПРОГ" H 9575 2156 60  0000 C CNN
-F 2 "N_X:Вилка_PLD6_угловая_вертикальная" H 9575 1825 60  0001 C CNN
-F 3 "" H 9575 1825 60  0001 C CNN
-	1    9575 1825
-	1    0    0    -1  
-$EndComp
-Text GLabel 10725 1675 2    50   Input ~ 0
+Text GLabel 7750 3850 2    50   Input ~ 0
 VCC
-Wire Wire Line
-	10100 1975 10025 1975
-Text GLabel 10100 1975 2    50   Input ~ 0
+Text GLabel 7750 4050 2    50   Input ~ 0
 GND
-Wire Wire Line
-	10100 1825 10025 1825
-Wire Wire Line
-	9125 1675 8975 1675
-Wire Wire Line
-	9125 1975 9075 1975
-Wire Wire Line
-	9125 1825 8975 1825
-Text GLabel 2625 2600 0    50   Input ~ 0
+Text GLabel 2325 2600 0    50   Input ~ 0
 MOSI
-Wire Wire Line
-	2675 2600 2625 2600
-Text GLabel 2625 2700 0    50   Input ~ 0
+Text GLabel 2325 2700 0    50   Input ~ 0
 MISO
-Wire Wire Line
-	2675 2700 2625 2700
-Text GLabel 4775 1200 2    50   Input ~ 0
+Text GLabel 5200 1200 2    50   Input ~ 0
 SCK
-Wire Wire Line
-	4725 1200 4775 1200
 Text GLabel 4775 1300 2    50   Input ~ 0
 VCC
 Wire Wire Line
@@ -151,33 +124,18 @@ Wire Wire Line
 	9275 4300 9400 4300
 Connection ~ 9275 3975
 Connection ~ 9950 3975
-Text GLabel 10100 1825 2    50   Input ~ 0
+Text GLabel 7750 3750 2    50   Input ~ 0
 MOSI
-Text GLabel 8975 1675 0    50   Input ~ 0
+Text GLabel 7750 3650 2    50   Input ~ 0
 MISO
 Text GLabel 4775 2400 2    50   Input ~ 0
 RES
 Wire Wire Line
-	4725 2400 4775 2400
-Text GLabel 8975 1975 0    50   Input ~ 0
+	4725 2400 4750 2400
+Text GLabel 7750 3550 2    50   Input ~ 0
 RES
-Text GLabel 8975 1825 0    50   Input ~ 0
+Text GLabel 7750 3450 2    50   Input ~ 0
 SCK
-$Comp
-L elements:Диод_шоттки VD2
-U 1 1 5C1E1359
-P 10325 1675
-F 0 "VD2" H 10575 1800 50  0000 C CNN
-F 1 "Диод_шоттки" H 10600 1575 50  0000 C CNN
-F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 10225 1675 50  0001 C CNN
-F 3 "" H 10225 1675 50  0001 C CNN
-	1    10325 1675
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10625 1675 10725 1675
-Wire Wire Line
-	10025 1675 10325 1675
 $Comp
 L elements:Резистор_0,125Вт R10
 U 1 1 5C1E3599
@@ -211,9 +169,9 @@ Wire Wire Line
 Wire Wire Line
 	9900 4800 10000 4800
 Wire Wire Line
-	4725 2300 4775 2300
+	2675 2500 2625 2500
 Wire Wire Line
-	4725 2200 4775 2200
+	2675 2400 2625 2400
 Text GLabel 2550 5950 2    50   Input ~ 0
 BUT_1_IN
 Text GLabel 1275 5950 0    50   Input ~ 0
@@ -232,25 +190,16 @@ $EndComp
 $Comp
 L elements:Резистор_0,125Вт R9
 U 1 1 5C20E34A
-P 9075 2425
-F 0 "R9" V 8975 2575 60  0000 C CNN
-F 1 "20 кОм(0805)" V 9150 2850 60  0000 C CNN
-F 2 "N_RLC:Резистор_SMD_0805_0,125Вт" H 9075 2425 60  0001 C CNN
-F 3 "" H 9075 2425 60  0001 C CNN
-	1    9075 2425
-	0    1    1    0   
+P 5900 2325
+F 0 "R9" H 5775 2200 60  0000 C CNN
+F 1 "20 кОм(0805)" H 5875 2475 60  0000 C CNN
+F 2 "N_RLC:Резистор_SMD_0805_0,125Вт" H 5900 2325 60  0001 C CNN
+F 3 "" H 5900 2325 60  0001 C CNN
+	1    5900 2325
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9075 1975 9075 2025
-Connection ~ 9075 1975
-Wire Wire Line
-	9075 1975 8975 1975
-Text GLabel 9225 2875 2    50   Input ~ 0
+Text GLabel 6400 2325 2    50   Input ~ 0
 VCC
-Wire Wire Line
-	9075 2825 9075 2875
-Wire Wire Line
-	9075 2875 9225 2875
 Text GLabel 2550 5750 2    50   Input ~ 0
 BUT_1_CUP
 Wire Wire Line
@@ -416,45 +365,27 @@ Wire Wire Line
 	5125 5550 5050 5550
 Wire Wire Line
 	3850 5350 3950 5350
-Text GLabel 2575 2200 0    50   Input ~ 0
+Text GLabel 1475 2150 0    50   Input ~ 0
 BUT_7_IN
-Wire Wire Line
-	4825 1800 4725 1800
-Text GLabel 4825 1800 2    50   Input ~ 0
+Text GLabel 5975 1775 2    50   Input ~ 0
 BUT_0_IN
-Wire Wire Line
-	4825 1900 4725 1900
-Text GLabel 2575 2300 0    50   Input ~ 0
+Text GLabel 1475 2250 0    50   Input ~ 0
 BUT_COM_OUT
-Wire Wire Line
-	4725 2000 4825 2000
-Text GLabel 4775 2200 2    50   Input ~ 0
+Text GLabel 2625 2400 0    50   Input ~ 0
 PWM_OUT_1
-Text GLabel 4825 1900 2    50   Input ~ 0
+Text GLabel 5975 1875 2    50   Input ~ 0
 BUT_1_IN
-Wire Wire Line
-	2575 2300 2675 2300
-Text GLabel 4825 2000 2    50   Input ~ 0
+Text GLabel 5975 1975 2    50   Input ~ 0
 BUT_2_IN
-Wire Wire Line
-	2575 2200 2675 2200
-Text GLabel 2575 1200 0    50   Input ~ 0
+Text GLabel 1700 1250 0    50   Input ~ 0
 BUT_3_IN
-Wire Wire Line
-	2575 1200 2675 1200
-Text GLabel 2575 1300 0    50   Input ~ 0
+Text GLabel 1700 1350 0    50   Input ~ 0
 BUT_4_IN
-Wire Wire Line
-	2575 1300 2675 1300
-Text GLabel 2575 2000 0    50   Input ~ 0
+Text GLabel 1475 1950 0    50   Input ~ 0
 BUT_5_IN
-Wire Wire Line
-	2575 2000 2675 2000
-Text GLabel 2575 2100 0    50   Input ~ 0
+Text GLabel 1475 2050 0    50   Input ~ 0
 BUT_6_IN
-Wire Wire Line
-	2575 2100 2675 2100
-Text GLabel 4775 2300 2    50   Input ~ 0
+Text GLabel 2625 2500 0    50   Input ~ 0
 PWM_OUT_2
 Text GLabel 2550 5350 2    50   Input ~ 0
 BUT_0_IN
@@ -640,82 +571,6 @@ Text GLabel 5100 2600 2    50   Input ~ 0
 TX
 Text GLabel 5100 2500 2    50   Input ~ 0
 RX
-Text GLabel 7850 6050 2    50   Input ~ 0
-PWM_OUT_1
-Text GLabel 7850 5950 2    50   Input ~ 0
-PWM_OUT_2
-Text GLabel 7850 5750 2    50   Input ~ 0
-TX
-Text GLabel 7850 5850 2    50   Input ~ 0
-RX
-Wire Wire Line
-	7850 5550 7750 5550
-Wire Wire Line
-	7750 5650 7850 5650
-Wire Wire Line
-	7850 5750 7750 5750
-Wire Wire Line
-	7750 5850 7850 5850
-$Comp
-L elements:Вилка_PLS6 XP1
-U 1 1 5C2535CA
-P 7250 4600
-F 0 "XP1" H 7506 4681 60  0000 C CNN
-F 1 "Вилка_PLS6" H 7550 3825 60  0001 C CNN
-F 2 "N_X:Вилка_PLS6_угловая_вертикальная" H 7250 4600 60  0001 C CNN
-F 3 "" H 7250 4600 60  0001 C CNN
-	1    7250 4600
-	1    0    0    -1  
-$EndComp
-Text GLabel 8350 4800 2    50   Input ~ 0
-VCC
-$Comp
-L elements:Диод_шоттки VD1
-U 1 1 5C2537F4
-P 7950 4800
-F 0 "VD1" H 8200 4925 50  0000 C CNN
-F 1 "Диод_шоттки" H 8225 4700 50  0000 C CNN
-F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 7850 4800 50  0001 C CNN
-F 3 "" H 7850 4800 50  0001 C CNN
-	1    7950 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 4800 8350 4800
-Wire Wire Line
-	7750 4700 7850 4700
-Wire Wire Line
-	7850 4700 7850 4800
-Wire Wire Line
-	7850 4900 7750 4900
-Wire Wire Line
-	7850 4800 7950 4800
-Connection ~ 7850 4800
-Wire Wire Line
-	7850 4800 7850 4900
-Wire Wire Line
-	7850 4800 7750 4800
-Text GLabel 8350 5100 2    50   Input ~ 0
-GND
-Wire Wire Line
-	7750 5000 7850 5000
-Wire Wire Line
-	7850 5000 7850 5100
-Wire Wire Line
-	7850 5200 7750 5200
-Wire Wire Line
-	7750 5100 7850 5100
-Connection ~ 7850 5100
-Wire Wire Line
-	7850 5100 7850 5200
-Wire Wire Line
-	7850 5100 8350 5100
-Wire Wire Line
-	4725 2100 4825 2100
-Text GLabel 5100 2700 2    50   Input ~ 0
-NeoPixel_OUT
-Text GLabel 7850 5550 2    50   Input ~ 0
-NeoPixel_OUT
 $Comp
 L elements:Резистор_0,125Вт R11
 U 1 1 5C2BB779
@@ -747,28 +602,11 @@ Wire Wire Line
 Wire Wire Line
 	9900 5300 10000 5300
 Wire Wire Line
-	7750 6050 7850 6050
-NoConn ~ 2675 1800
-NoConn ~ 2675 1900
-Wire Wire Line
 	4725 2600 5100 2600
 Wire Wire Line
 	5100 2500 4725 2500
-Text GLabel 4825 2100 2    50   Input ~ 0
+Text GLabel 5975 2075 2    50   Input ~ 0
 LED_work
-Wire Wire Line
-	4725 2700 5100 2700
-$Comp
-L elements:Вилка_PLS6 XP2
-U 1 1 5C33CA4C
-P 7250 5450
-F 0 "XP2" H 7506 5531 60  0000 C CNN
-F 1 "Вилка_PLS6" H 7550 4675 60  0001 C CNN
-F 2 "N_X:Вилка_PLS6_угловая_вертикальная" H 7250 5450 60  0001 C CNN
-F 3 "" H 7250 5450 60  0001 C CNN
-	1    7250 5450
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4725 1500
 NoConn ~ 4725 1400
 NoConn ~ 4725 1700
@@ -791,11 +629,127 @@ Wire Wire Line
 	9950 3325 9950 3650
 Wire Wire Line
 	9275 3325 9275 3650
-NoConn ~ 2675 2400
-NoConn ~ 2675 2500
 Text GLabel 9050 5300 0    50   Input ~ 0
 LED_work
 Wire Wire Line
-	7750 5950 7850 5950
-NoConn ~ 7850 5650
+	2325 2600 2675 2600
+Wire Wire Line
+	2325 2700 2675 2700
+Wire Wire Line
+	4725 1200 5200 1200
+Text GLabel 2300 2925 0    50   Input ~ 0
+D_Out_2
+Text GLabel 2300 2825 0    50   Input ~ 0
+D_Out_1
+Text GLabel 2300 3125 0    50   Input ~ 0
+D_Out_4
+Text GLabel 2300 3025 0    50   Input ~ 0
+D_Out_3
+Text GLabel 2300 3325 0    50   Input ~ 0
+D_Out_6
+Text GLabel 2300 3225 0    50   Input ~ 0
+D_Out_5
+Text GLabel 2300 3525 0    50   Input ~ 0
+D_Out_8
+Text GLabel 2300 3425 0    50   Input ~ 0
+D_Out_7
+Text GLabel 7750 4800 2    50   Input ~ 0
+D_Out_2
+Text GLabel 7750 4700 2    50   Input ~ 0
+D_Out_1
+Text GLabel 7750 5000 2    50   Input ~ 0
+D_Out_4
+Text GLabel 7750 4900 2    50   Input ~ 0
+D_Out_3
+Text GLabel 7750 5200 2    50   Input ~ 0
+D_Out_6
+Text GLabel 7750 5100 2    50   Input ~ 0
+D_Out_5
+Text GLabel 7750 5400 2    50   Input ~ 0
+D_Out_8
+Text GLabel 7750 5300 2    50   Input ~ 0
+D_Out_7
+Text GLabel 7750 5800 2    50   Input ~ 0
+PWM_OUT_1
+Text GLabel 7750 5700 2    50   Input ~ 0
+PWM_OUT_2
+Text GLabel 7750 5500 2    50   Input ~ 0
+TX
+Text GLabel 7750 5600 2    50   Input ~ 0
+RX
+Wire Wire Line
+	7750 5500 7650 5500
+Wire Wire Line
+	7650 5600 7750 5600
+Wire Wire Line
+	7650 5800 7750 5800
+Wire Wire Line
+	7650 5700 7750 5700
+Wire Wire Line
+	7750 5100 7650 5100
+Wire Wire Line
+	7650 5200 7750 5200
+Wire Wire Line
+	7650 5400 7750 5400
+Wire Wire Line
+	7650 5300 7750 5300
+Wire Wire Line
+	7750 4700 7650 4700
+Wire Wire Line
+	7650 4800 7750 4800
+Wire Wire Line
+	7650 5000 7750 5000
+Wire Wire Line
+	7650 4900 7750 4900
+$Comp
+L elements:Вилка_PLS12 XP2
+U 1 1 5C2AB08E
+P 7150 4600
+F 0 "XP2" H 7406 4681 60  0000 C CNN
+F 1 "Вилка_PLS12" H 7300 3200 60  0001 C CNN
+F 2 "N_X:Вилка_PLS12_угловая_вертикальная" H 7150 4600 60  0001 C CNN
+F 3 "" H 7150 4600 60  0001 C CNN
+	1    7150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Вилка_PLS8 XP1
+U 1 1 5C2D1F66
+P 7150 3350
+F 0 "XP1" H 7406 3431 60  0000 C CNN
+F 1 "Вилка_PLS8" H 7400 2400 60  0001 C CNN
+F 2 "N_X:Вилка_PLS8_угловая_вертикальная" H 7150 3350 60  0001 C CNN
+F 3 "" H 7150 3350 60  0001 C CNN
+	1    7150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3450 7750 3450
+Wire Wire Line
+	7650 3550 7750 3550
+Wire Wire Line
+	7650 3650 7750 3650
+Wire Wire Line
+	7650 3750 7750 3750
+Wire Wire Line
+	7650 3850 7750 3850
+Wire Wire Line
+	7650 3950 7750 3950
+Wire Wire Line
+	7650 4050 7750 4050
+Wire Wire Line
+	7650 4150 7750 4150
+Text GLabel 7775 4150 2    50   Input ~ 0
+GND
+Text GLabel 7750 3950 2    50   Input ~ 0
+VCC
+Wire Wire Line
+	4750 2400 4750 2325
+Wire Wire Line
+	4750 2325 5500 2325
+Connection ~ 4750 2400
+Wire Wire Line
+	4750 2400 4775 2400
+Wire Wire Line
+	6300 2325 6400 2325
 $EndSCHEMATC
