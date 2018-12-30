@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -14,16 +14,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1600 2300 1300 1450
-U 5C2D6553
-F0 "uad_sensor" 50
-F1 "uad_sensor.sch" 50
-$EndSheet
-$Sheet
-S 3450 2300 1300 1425
-U 5C2D7FDC
-F0 "uab_logic" 50
-F1 "uab_logic.sch" 50
-$EndSheet
 $EndSCHEMATC
