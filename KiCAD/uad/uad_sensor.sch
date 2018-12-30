@@ -298,33 +298,33 @@ Wire Wire Line
 Wire Wire Line
 	6375 3825 6300 3825
 Wire Wire Line
-	1300 4800 1600 4800
+	1300 4600 1600 4600
 Wire Wire Line
 	1300 4700 1600 4700
 Wire Wire Line
 	1300 5300 1600 5300
 Wire Wire Line
+	1300 5400 1600 5400
+Wire Wire Line
+	1300 4800 1600 4800
+Wire Wire Line
 	1300 5200 1600 5200
 Wire Wire Line
-	1300 4600 1600 4600
-Wire Wire Line
-	1300 5400 1600 5400
+	3550 4700 3850 4700
 Wire Wire Line
 	3550 4800 3850 4800
 Wire Wire Line
-	3550 4700 3850 4700
+	3550 5400 3850 5400
+Wire Wire Line
+	3550 4600 3850 4600
+Wire Wire Line
+	3550 5900 3850 5900
 Wire Wire Line
 	3550 5300 3850 5300
 Wire Wire Line
 	3550 5200 3850 5200
 Wire Wire Line
-	3550 4600 3850 4600
-Wire Wire Line
-	3550 5400 3850 5400
-Wire Wire Line
 	3550 5800 3850 5800
-Wire Wire Line
-	3550 5900 3850 5900
 Text Label 1775 1850 0    50   ~ 0
 BUT_COM_OUT
 Wire Wire Line
@@ -405,33 +405,33 @@ Text Label 6375 3250 0    50   ~ 0
 GND
 Text Label 6375 3825 0    50   ~ 0
 GND
-Text Label 1600 4600 0    50   ~ 0
+Text Label 1600 4800 0    50   ~ 0
 BUT_COM_OUT
-Text Label 1600 5400 0    50   ~ 0
+Text Label 1600 5200 0    50   ~ 0
 BUT_COM_OUT
 Text Label 1600 4700 0    50   ~ 0
 GND
-Text Label 1600 4800 0    50   ~ 0
+Text Label 1600 4600 0    50   ~ 0
 GND
-Text Label 1600 5200 0    50   ~ 0
+Text Label 1600 5400 0    50   ~ 0
 GND
 Text Label 1600 5300 0    50   ~ 0
 GND
-Text Label 3850 4600 0    50   ~ 0
-BUT_1_IN
-Text Label 3850 4700 0    50   ~ 0
-BUT_2_IN
-Text Label 3850 4800 0    50   ~ 0
-BUT_3_IN
-Text Label 3850 5200 0    50   ~ 0
-BUT_4_IN
-Text Label 3850 5300 0    50   ~ 0
-BUT_5_IN
-Text Label 3850 5400 0    50   ~ 0
-BUT_6_IN
-Text Label 3850 5800 0    50   ~ 0
-BUT_7_IN
 Text Label 3850 5900 0    50   ~ 0
+BUT_1_IN
+Text Label 3850 4800 0    50   ~ 0
+BUT_2_IN
+Text Label 3850 4700 0    50   ~ 0
+BUT_3_IN
+Text Label 3850 4600 0    50   ~ 0
+BUT_4_IN
+Text Label 3850 5400 0    50   ~ 0
+BUT_5_IN
+Text Label 3850 5300 0    50   ~ 0
+BUT_6_IN
+Text Label 3850 5200 0    50   ~ 0
+BUT_7_IN
+Text Label 3850 5800 0    50   ~ 0
 BUT_8_IN
 $Comp
 L elements:Вилка_PLS3 XP1
