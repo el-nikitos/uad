@@ -479,88 +479,88 @@ VCC
 $Comp
 L elements:Резистор_0,125Вт R?
 U 1 1 5C2E629B
-P 5500 5250
+P 5500 5950
 AR Path="/5C2E629B" Ref="R?"  Part="1" 
 AR Path="/5C2A8A19/5C2E629B" Ref="R?"  Part="1" 
 AR Path="/5C2D7FDC/5C2E629B" Ref="R12"  Part="1" 
-F 0 "R12" H 5375 5125 60  0000 C CNN
-F 1 "300 Ом(0805)" H 5475 5400 60  0000 C CNN
-F 2 "N_RLC:Резистор_SMD_0805_0,125Вт" H 5500 5250 60  0001 C CNN
-F 3 "" H 5500 5250 60  0001 C CNN
-	1    5500 5250
+F 0 "R12" H 5375 5825 60  0000 C CNN
+F 1 "300 Ом(0805)" H 5475 6100 60  0000 C CNN
+F 2 "N_RLC:Резистор_SMD_0805_0,125Вт" H 5500 5950 60  0001 C CNN
+F 3 "" H 5500 5950 60  0001 C CNN
+	1    5500 5950
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5900 5250 6000 5250
+	5900 5950 6000 5950
 Wire Wire Line
-	5100 5250 4900 5250
-Text Label 4900 5250 2    50   ~ 0
+	5100 5950 4900 5950
+Text Label 4900 5950 2    50   ~ 0
 PWM_OUT_1
 $Comp
 L elements:Резистор_0,125Вт R?
 U 1 1 5C2EC182
-P 5500 5700
+P 5500 6400
 AR Path="/5C2EC182" Ref="R?"  Part="1" 
 AR Path="/5C2A8A19/5C2EC182" Ref="R?"  Part="1" 
 AR Path="/5C2D7FDC/5C2EC182" Ref="R13"  Part="1" 
-F 0 "R13" H 5375 5575 60  0000 C CNN
-F 1 "300 Ом(0805)" H 5475 5850 60  0000 C CNN
-F 2 "N_RLC:Резистор_SMD_0805_0,125Вт" H 5500 5700 60  0001 C CNN
-F 3 "" H 5500 5700 60  0001 C CNN
-	1    5500 5700
+F 0 "R13" H 5375 6275 60  0000 C CNN
+F 1 "300 Ом(0805)" H 5475 6550 60  0000 C CNN
+F 2 "N_RLC:Резистор_SMD_0805_0,125Вт" H 5500 6400 60  0001 C CNN
+F 3 "" H 5500 6400 60  0001 C CNN
+	1    5500 6400
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5100 5700 4900 5700
-Text Label 4900 6150 2    50   ~ 0
+	5100 6400 4900 6400
+Text Label 4900 6850 2    50   ~ 0
 PWR_GND
-Text Label 4900 5700 2    50   ~ 0
+Text Label 4900 6400 2    50   ~ 0
 PWM_OUT_2
 Wire Wire Line
-	4900 6150 6450 6150
+	4900 6850 6450 6850
 Wire Wire Line
-	6450 5650 6450 6150
-Connection ~ 6450 6150
+	6450 6350 6450 6850
+Connection ~ 6450 6850
 $Comp
 L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT1
 U 1 1 5C300FD7
-P 6000 5250
-F 0 "VT1" H 6550 5425 60  0000 L CNN
-F 1 "PBSS4540Z" H 6500 5025 60  0000 L CNN
-F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 6000 5250 60  0001 C CNN
-F 3 "" H 6000 5250 60  0001 C CNN
-	1    6000 5250
+P 6000 5950
+F 0 "VT1" H 6550 6125 60  0000 L CNN
+F 1 "PBSS4540Z" H 6500 5725 60  0000 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 6000 5950 60  0001 C CNN
+F 3 "" H 6000 5950 60  0001 C CNN
+	1    6000 5950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6300 4850 6300 4775
+	6300 5550 6300 5475
 Wire Wire Line
-	6300 4775 6450 4775
+	6300 5475 6450 5475
 Wire Wire Line
-	6450 4775 6450 4850
+	6450 5475 6450 5550
 $Comp
 L elements:Транзистор_NPN_1Б-2(4)К-3Э_0 VT2
 U 1 1 5C305D2C
-P 6800 5700
-F 0 "VT2" H 7350 5875 60  0000 L CNN
-F 1 "PBSS4540Z" H 7300 5475 60  0000 L CNN
-F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 6800 5700 60  0001 C CNN
-F 3 "" H 6800 5700 60  0001 C CNN
-	1    6800 5700
+P 6800 6400
+F 0 "VT2" H 7350 6575 60  0000 L CNN
+F 1 "PBSS4540Z" H 7300 6175 60  0000 L CNN
+F 2 "N_VD_HL:Транзистор_NPN_SOT223" H 6800 6400 60  0001 C CNN
+F 3 "" H 6800 6400 60  0001 C CNN
+	1    6800 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5900 5700 6800 5700
+	5900 6400 6800 6400
 Wire Wire Line
-	7250 6150 7250 6100
+	7250 6850 7250 6800
 Wire Wire Line
-	6450 6150 7250 6150
+	6450 6850 7250 6850
 Wire Wire Line
-	7100 5300 7100 5225
+	7100 6000 7100 5925
 Wire Wire Line
-	7100 5225 7250 5225
+	7100 5925 7250 5925
 Wire Wire Line
-	7250 5225 7250 5300
+	7250 5925 7250 6000
 Text Label 5050 2575 2    50   ~ 0
 BUT_2_IN
 Wire Wire Line
@@ -847,4 +847,169 @@ Text Label 13650 7100 2    50   ~ 0
 LED_8
 Text Label 14950 7100 0    50   ~ 0
 GND
+$Comp
+L elements:Клеммник_х2 XТ?
+U 1 1 5C2A6B5F
+P 1525 4675
+F 0 "XТ?" H 1325 4875 60  0000 C CNN
+F 1 "Клеммник_х2" H 1475 4300 60  0001 C CNN
+F 2 "N_X:Клеммник_х2_шаг5" H 1525 4675 60  0001 C CNN
+F 3 "" H 1525 4675 60  0001 C CNN
+	1    1525 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Предохранитель FU?
+U 1 1 5C2A9379
+P 2075 4475
+F 0 "FU?" H 2075 4625 60  0000 C CNN
+F 1 "Предохранитель" H 2125 4350 60  0000 C CNN
+F 2 "" H 2075 4475 60  0001 C CNN
+F 3 "" H 2075 4475 60  0001 C CNN
+	1    2075 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 4675 1600 4675
+Wire Wire Line
+	1600 4475 1675 4475
+$Comp
+L elements:Предохранитель FU?
+U 1 1 5C2ADFE9
+P 2075 5075
+F 0 "FU?" H 2075 5225 60  0000 C CNN
+F 1 "Предохранитель" H 2125 4950 60  0000 C CNN
+F 2 "" H 2075 5075 60  0001 C CNN
+F 3 "" H 2075 5075 60  0001 C CNN
+	1    2075 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 5075 1600 5075
+Wire Wire Line
+	1600 4875 1525 4875
+$Comp
+L elements:отверстие_под_пайку X?
+U 1 1 5C2B84C2
+P 2800 4475
+F 0 "X?" H 2840 4553 60  0000 L CNN
+F 1 "L_220" H 2840 4447 60  0000 L CNN
+F 2 "" H 2800 4475 60  0001 C CNN
+F 3 "" H 2800 4475 60  0001 C CNN
+	1    2800 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:отверстие_под_пайку X?
+U 1 1 5C2B85E8
+P 2800 5075
+F 0 "X?" H 2840 5153 60  0000 L CNN
+F 1 "N_220" H 2840 5047 60  0000 L CNN
+F 2 "" H 2800 5075 60  0001 C CNN
+F 3 "" H 2800 5075 60  0001 C CNN
+	1    2800 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2475 4475 2800 4475
+Wire Wire Line
+	2475 5075 2800 5075
+Wire Wire Line
+	1600 4475 1600 4675
+Wire Wire Line
+	1600 4875 1600 5075
+$Comp
+L elements:Клеммник_х2 XТ?
+U 1 1 5C2D8118
+P 4900 5250
+F 0 "XТ?" H 4700 5450 60  0000 C CNN
+F 1 "Клеммник_х2" H 4850 4875 60  0001 C CNN
+F 2 "N_X:Клеммник_х2_шаг5" H 4900 5250 60  0001 C CNN
+F 3 "" H 4900 5250 60  0001 C CNN
+	1    4900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Клеммник_х2 XТ?
+U 1 1 5C2DD955
+P 4900 4600
+F 0 "XТ?" H 4700 4800 60  0000 C CNN
+F 1 "Клеммник_х2" H 4850 4225 60  0001 C CNN
+F 2 "N_X:Клеммник_х2_шаг5" H 4900 4600 60  0001 C CNN
+F 3 "" H 4900 4600 60  0001 C CNN
+	1    4900 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4600 5050 4600
+Wire Wire Line
+	4900 5250 5050 5250
+Text Label 5225 4600 0    50   ~ 0
+PWR_12V
+Text Label 5225 5250 0    50   ~ 0
+PWR_12V
+Wire Wire Line
+	6300 5450 6300 5475
+Connection ~ 6300 5475
+Wire Wire Line
+	4900 4800 5050 4800
+Wire Wire Line
+	7100 4800 7100 5925
+Connection ~ 7100 5925
+Wire Wire Line
+	4900 5450 5050 5450
+$Comp
+L elements:Конденсатор_керамический C?
+U 1 1 5C30A7AE
+P 5050 5375
+AR Path="/5C30A7AE" Ref="C?"  Part="1" 
+AR Path="/5C2A8A19/5C30A7AE" Ref="C?"  Part="1" 
+AR Path="/5C2D7FDC/5C30A7AE" Ref="C?"  Part="1" 
+F 0 "C?" V 5125 5200 60  0000 L CNN
+F 1 "4.7мкФ(1210)" V 5025 4675 60  0000 L CNN
+F 2 "N_RLC:Конденсатор_SMD_1210" H 5050 5375 60  0001 C CNN
+F 3 "" H 5050 5375 60  0001 C CNN
+	1    5050 5375
+	0    -1   -1   0   
+$EndComp
+$Comp
+L elements:Конденсатор_керамический C?
+U 1 1 5C30ACCD
+P 5050 4725
+AR Path="/5C30ACCD" Ref="C?"  Part="1" 
+AR Path="/5C2A8A19/5C30ACCD" Ref="C?"  Part="1" 
+AR Path="/5C2D7FDC/5C30ACCD" Ref="C?"  Part="1" 
+F 0 "C?" V 5125 4550 60  0000 L CNN
+F 1 "4.7мкФ(1210)" V 5025 4025 60  0000 L CNN
+F 2 "N_RLC:Конденсатор_SMD_1210" H 5050 4725 60  0001 C CNN
+F 3 "" H 5050 4725 60  0001 C CNN
+	1    5050 4725
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5050 5275 5050 5250
+Connection ~ 5050 5250
+Wire Wire Line
+	5050 5250 5225 5250
+Wire Wire Line
+	5050 5425 5050 5450
+Connection ~ 5050 5450
+Wire Wire Line
+	5050 5450 6300 5450
+Wire Wire Line
+	5050 4775 5050 4800
+Connection ~ 5050 4800
+Wire Wire Line
+	5050 4800 7100 4800
+Wire Wire Line
+	5050 4625 5050 4600
+Connection ~ 5050 4600
+Wire Wire Line
+	5050 4600 5225 4600
+Text Notes 825  4800 0    50   ~ 0
+Вход 220В
+Text Notes 4200 4750 0    50   ~ 0
+На 1\nвентилятор\n
+Text Notes 4200 5400 0    50   ~ 0
+На 2\nвентилятор\n
 $EndSCHEMATC
