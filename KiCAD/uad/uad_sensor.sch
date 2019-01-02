@@ -410,13 +410,13 @@ BUT_COM_OUT
 Text Label 1600 5200 0    50   ~ 0
 BUT_COM_OUT
 Text Label 1600 4700 0    50   ~ 0
-GND
+VCC_1
 Text Label 1600 4600 0    50   ~ 0
 GND
 Text Label 1600 5400 0    50   ~ 0
 GND
 Text Label 1600 5300 0    50   ~ 0
-GND
+VCC_2
 Text Label 3850 5900 0    50   ~ 0
 BUT_1_IN
 Text Label 3850 4800 0    50   ~ 0

@@ -265,13 +265,13 @@ BUT_COM_OUT
 Text Label 2125 9000 0    50   ~ 0
 BUT_COM_OUT
 Text Label 2125 8500 0    50   ~ 0
-GND
+VCC
 Text Label 2125 8400 0    50   ~ 0
 GND
 Text Label 2125 9200 0    50   ~ 0
 GND
 Text Label 2125 9100 0    50   ~ 0
-GND
+VCC
 Text Label 4375 9700 0    50   ~ 0
 BUT_1_IN
 Text Label 4375 8600 0    50   ~ 0
@@ -362,11 +362,11 @@ Text Label 7825 2775 0    50   ~ 0
 RX
 Text Label 7825 2875 0    50   ~ 0
 TX
-Text Label 5050 2675 2    50   ~ 0
+Text Label 5050 2775 2    50   ~ 0
 PWM_OUT_1
 Wire Wire Line
 	5050 2675 5400 2675
-Text Label 5050 2775 2    50   ~ 0
+Text Label 5050 2675 2    50   ~ 0
 PWM_OUT_2
 Wire Wire Line
 	5050 2775 5400 2775
@@ -445,17 +445,6 @@ Text Label 13250 2025 0    50   ~ 0
 VCC
 Text Label 12700 2325 0    50   ~ 0
 GND
-$Comp
-L MOTOR:Диод_шоттки VD1
-U 1 1 5C2E11EB
-P 12700 2025
-F 0 "VD1" H 12900 2150 50  0000 C CNN
-F 1 "Шоттки_BAR43CFILM" H 13275 1950 50  0000 C CNN
-F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 12600 2025 50  0001 C CNN
-F 3 "" H 12600 2025 50  0001 C CNN
-	1    12700 2025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13000 2025 13250 2025
 Text Label 9125 2600 0    50   ~ 0
@@ -966,9 +955,9 @@ Wire Wire Line
 Text Notes 6775 8700 0    50   ~ 0
 Вход 220В
 Text Notes 4725 4450 0    50   ~ 0
-На 1\nвентилятор\n
-Text Notes 4725 5100 0    50   ~ 0
 На 2\nвентилятор\n
+Text Notes 4725 5100 0    50   ~ 0
+На 1\nвентилятор\n
 $Comp
 L elements:отверстие_под_пайку X3
 U 1 1 5C2BDF8E
@@ -1122,17 +1111,6 @@ Wire Wire Line
 	13175 9175 13175 8975
 Text Label 14775 8675 0    50   ~ 0
 VCC
-$Comp
-L MOTOR:Диод_шоттки VD3
-U 1 1 5C44939A
-P 14300 8675
-F 0 "VD3" H 14500 8800 50  0000 C CNN
-F 1 "Шоттки_BAR43CFILM" H 14875 8600 50  0000 C CNN
-F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 14200 8675 50  0001 C CNN
-F 3 "" H 14200 8675 50  0001 C CNN
-	1    14300 8675
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14600 8675 14775 8675
 Wire Wire Line
@@ -1187,4 +1165,53 @@ Wire Wire Line
 Connection ~ 12100 9175
 Wire Wire Line
 	11550 9175 10525 9175
+Text Label 6400 4500 0    50   ~ 0
+collector_2
+Text Label 6400 5150 0    50   ~ 0
+collector_1
+$Comp
+L elements:Диод_шоттки VD1
+U 1 1 5C2E30A1
+P 12700 2025
+F 0 "VD1" H 12850 2200 50  0000 C CNN
+F 1 "Шоттки_BAR43CFILM" H 13325 1925 50  0000 C CNN
+F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 12600 2025 50  0001 C CNN
+F 3 "" H 12600 2025 50  0001 C CNN
+	1    12700 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Диод_шоттки VD3
+U 1 1 5C2F4AB9
+P 14300 8675
+F 0 "VD3" H 14450 8850 50  0000 C CNN
+F 1 "Шоттки_BAR43CFILM" H 14925 8575 50  0000 C CNN
+F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 14200 8675 50  0001 C CNN
+F 3 "" H 14200 8675 50  0001 C CNN
+	1    14300 8675
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Вилка_PLS3 XP7
+U 1 1 5C2D9B36
+P 1325 7475
+F 0 "XP7" H 1581 7556 60  0000 C CNN
+F 1 "Вилка_PLS3" H 1525 6900 60  0001 C CNN
+F 2 "N_X:Вилка_PLS3_вертикальная" H 1325 7475 60  0001 C CNN
+F 3 "" H 1325 7475 60  0001 C CNN
+	1    1325 7475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 7575 2125 7575
+Text Label 2125 7575 0    50   ~ 0
+GND
+Wire Wire Line
+	1825 7675 2125 7675
+Wire Wire Line
+	1825 7775 2125 7775
+Text Label 2125 7675 0    50   ~ 0
+RX
+Text Label 2125 7775 0    50   ~ 0
+TX
 $EndSCHEMATC

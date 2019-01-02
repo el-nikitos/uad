@@ -362,11 +362,11 @@ Text Label 7825 2775 0    50   ~ 0
 RX
 Text Label 7825 2875 0    50   ~ 0
 TX
-Text Label 5050 2675 2    50   ~ 0
+Text Label 5050 2775 2    50   ~ 0
 PWM_OUT_1
 Wire Wire Line
 	5050 2675 5400 2675
-Text Label 5050 2775 2    50   ~ 0
+Text Label 5050 2675 2    50   ~ 0
 PWM_OUT_2
 Wire Wire Line
 	5050 2775 5400 2775
@@ -445,17 +445,6 @@ Text Label 13250 2025 0    50   ~ 0
 VCC
 Text Label 12700 2325 0    50   ~ 0
 GND
-$Comp
-L MOTOR:Диод_шоттки VD1
-U 1 1 5C2E11EB
-P 12700 2025
-F 0 "VD1" H 12900 2150 50  0000 C CNN
-F 1 "Шоттки_BAR43CFILM" H 13275 1950 50  0000 C CNN
-F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 12600 2025 50  0001 C CNN
-F 3 "" H 12600 2025 50  0001 C CNN
-	1    12700 2025
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13000 2025 13250 2025
 Text Label 9125 2600 0    50   ~ 0
@@ -966,9 +955,9 @@ Wire Wire Line
 Text Notes 6775 8700 0    50   ~ 0
 Вход 220В
 Text Notes 4725 4450 0    50   ~ 0
-На 1\nвентилятор\n
-Text Notes 4725 5100 0    50   ~ 0
 На 2\nвентилятор\n
+Text Notes 4725 5100 0    50   ~ 0
+На 1\nвентилятор\n
 $Comp
 L elements:отверстие_под_пайку X3
 U 1 1 5C2BDF8E
@@ -1104,12 +1093,12 @@ L2_12
 Text Label 9725 8975 0    50   ~ 0
 N1_12
 $Comp
-L elements:стабилизатор_нерегулируемый_LM2931 G?
+L elements:стабилизатор_нерегулируемый_LM2931 G1
 U 1 1 5C426F5E
 P 12825 8675
-F 0 "G?" H 13425 8825 50  0000 C CNN
+F 0 "G1" H 13425 8825 50  0000 C CNN
 F 1 "Стабилиатор_LM2931AZ-5.0G" H 13775 8300 50  0000 C CNN
-F 2 "" H 12825 8675 50  0001 C CNN
+F 2 "N_G:Стабилизатор_корпус_TO-92" H 12825 8675 50  0001 C CNN
 F 3 "" H 12825 8675 50  0001 C CNN
 	1    12825 8675
 	1    0    0    -1  
@@ -1122,17 +1111,6 @@ Wire Wire Line
 	13175 9175 13175 8975
 Text Label 14775 8675 0    50   ~ 0
 VCC
-$Comp
-L MOTOR:Диод_шоттки VD?
-U 1 1 5C44939A
-P 14300 8675
-F 0 "VD?" H 14500 8800 50  0000 C CNN
-F 1 "Шоттки_BAR43CFILM" H 14875 8600 50  0000 C CNN
-F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 14200 8675 50  0001 C CNN
-F 3 "" H 14200 8675 50  0001 C CNN
-	1    14300 8675
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14600 8675 14775 8675
 Wire Wire Line
@@ -1143,10 +1121,10 @@ Connection ~ 13175 9175
 Text Label 14150 9175 0    50   ~ 0
 GND
 $Comp
-L elements:Чип-индуктивность L?
+L elements:Чип-индуктивность L1
 U 1 1 5C4BFAA2
 P 12000 8675
-F 0 "L?" H 11800 8800 60  0000 C CNN
+F 0 "L1" H 11800 8800 60  0000 C CNN
 F 1 "33мкГн" H 11775 8600 60  0000 C CNN
 F 2 "N_RLC:Чип-индуктивность_SMD_0805" H 12000 8675 60  0001 C CNN
 F 3 "" H 12000 8675 60  0001 C CNN
@@ -1159,10 +1137,10 @@ Connection ~ 12100 8675
 Wire Wire Line
 	11550 8675 10975 8675
 $Comp
-L elements:Чип-индуктивность L?
+L elements:Чип-индуктивность L3
 U 1 1 5C4D1042
 P 14125 8675
-F 0 "L?" H 13925 8800 60  0000 C CNN
+F 0 "L3" H 13925 8800 60  0000 C CNN
 F 1 "33мкГн" H 13900 8600 60  0000 C CNN
 F 2 "N_RLC:Чип-индуктивность_SMD_0805" H 14125 8675 60  0001 C CNN
 F 3 "" H 14125 8675 60  0001 C CNN
@@ -1172,10 +1150,10 @@ $EndComp
 Wire Wire Line
 	14175 8675 14300 8675
 $Comp
-L elements:Чип-индуктивность L?
+L elements:Чип-индуктивность L2
 U 1 1 5C4E9EB6
 P 12000 9175
-F 0 "L?" H 11800 9300 60  0000 C CNN
+F 0 "L2" H 11800 9300 60  0000 C CNN
 F 1 "33мкГн" H 11775 9100 60  0000 C CNN
 F 2 "N_RLC:Чип-индуктивность_SMD_0805" H 12000 9175 60  0001 C CNN
 F 3 "" H 12000 9175 60  0001 C CNN
@@ -1187,4 +1165,30 @@ Wire Wire Line
 Connection ~ 12100 9175
 Wire Wire Line
 	11550 9175 10525 9175
+Text Label 6400 4500 0    50   ~ 0
+collector_2
+Text Label 6400 5150 0    50   ~ 0
+collector_1
+$Comp
+L elements:Диод_шоттки VD1
+U 1 1 5C2E30A1
+P 12700 2025
+F 0 "VD1" H 12850 2200 50  0000 C CNN
+F 1 "Шоттки_BAR43CFILM" H 13325 1925 50  0000 C CNN
+F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 12600 2025 50  0001 C CNN
+F 3 "" H 12600 2025 50  0001 C CNN
+	1    12700 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L elements:Диод_шоттки VD3
+U 1 1 5C2F4AB9
+P 14300 8675
+F 0 "VD3" H 14450 8850 50  0000 C CNN
+F 1 "Шоттки_BAR43CFILM" H 14925 8575 50  0000 C CNN
+F 2 "N_VD_HL:Диод_BAR43CFILM_SOT-23" H 14200 8675 50  0001 C CNN
+F 3 "" H 14200 8675 50  0001 C CNN
+	1    14300 8675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

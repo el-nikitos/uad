@@ -1,25 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MOTOR:Диод_шоттки
-#
-DEF MOTOR:Диод_шоттки VD 0 40 Y Y 1 F N
-F0 "VD" 175 125 50 H V C CNN
-F1 "MOTOR:Диод_шоттки" 175 -125 50 H V C CNN
-F2 "" -100 0 50 H I C CNN
-F3 "" -100 0 50 H I C CNN
-DRAW
-P 2 0 1 0 50 0 200 0 N
-P 2 0 1 0 175 -75 150 -75 N
-P 2 0 1 0 175 -75 175 0 N
-P 2 0 1 0 200 0 250 0 N
-P 3 0 1 0 175 0 175 75 200 75 N
-P 4 0 1 0 125 50 125 -50 175 0 125 50 N
-X ~ 1 0 0 50 R 50 50 1 1 I
-X ~ 2 300 0 50 L 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
 # elements:ATmega8A-AU
 #
 DEF elements:ATmega8A-AU DD 0 40 Y Y 1 F N
@@ -100,6 +81,25 @@ P 2 0 1 0 150 -150 125 -125 N
 X 1 1 500 -100 200 L 50 50 1 1 I
 X 2 2 500 -200 200 L 50 50 1 1 I
 X 3 3 500 -300 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# elements:Диод_шоттки
+#
+DEF elements:Диод_шоттки VD 0 40 Y Y 1 F N
+F0 "VD" 175 125 50 H V C CNN
+F1 "elements:Диод_шоттки" 175 -125 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+P 2 0 1 0 50 0 200 0 N
+P 2 0 1 0 175 -75 150 -75 N
+P 2 0 1 0 175 -75 175 0 N
+P 2 0 1 0 200 0 250 0 N
+P 3 0 1 0 175 0 175 75 200 75 N
+P 4 0 1 0 125 50 125 -50 175 0 125 50 N
+X ~ 1 0 0 50 R 50 50 1 1 I
+X ~ 2 300 0 50 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
