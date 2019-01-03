@@ -265,13 +265,13 @@ BUT_COM_OUT
 Text Label 2125 9000 0    50   ~ 0
 BUT_COM_OUT
 Text Label 2125 8500 0    50   ~ 0
-GND
+VCC
 Text Label 2125 8400 0    50   ~ 0
 GND
 Text Label 2125 9200 0    50   ~ 0
 GND
 Text Label 2125 9100 0    50   ~ 0
-GND
+VCC
 Text Label 4375 9700 0    50   ~ 0
 BUT_1_IN
 Text Label 4375 8600 0    50   ~ 0
@@ -1191,4 +1191,27 @@ F 3 "" H 14200 8675 50  0001 C CNN
 	1    14300 8675
 	1    0    0    -1  
 $EndComp
+$Comp
+L elements:Вилка_PLS3 XP7
+U 1 1 5C2D9B36
+P 1325 7475
+F 0 "XP7" H 1581 7556 60  0000 C CNN
+F 1 "Вилка_PLS3" H 1525 6900 60  0001 C CNN
+F 2 "N_X:Вилка_PLS3_вертикальная" H 1325 7475 60  0001 C CNN
+F 3 "" H 1325 7475 60  0001 C CNN
+	1    1325 7475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 7575 2125 7575
+Text Label 2125 7575 0    50   ~ 0
+GND
+Wire Wire Line
+	1825 7675 2125 7675
+Wire Wire Line
+	1825 7775 2125 7775
+Text Label 2125 7675 0    50   ~ 0
+RX
+Text Label 2125 7775 0    50   ~ 0
+TX
 $EndSCHEMATC

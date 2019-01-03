@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -25,5 +25,11 @@ S 3450 2300 1300 1425
 U 5C2D7FDC
 F0 "uab_logic" 50
 F1 "uab_logic.sch" 50
+$EndSheet
+$Sheet
+S 5150 2300 1300 1425
+U 5C2D1681
+F0 "uad_analog_panel" 50
+F1 "uad_analog_panel.sch" 50
 $EndSheet
 $EndSCHEMATC

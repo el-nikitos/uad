@@ -26,4 +26,10 @@ U 5C2D7FDC
 F0 "uab_logic" 50
 F1 "uab_logic.sch" 50
 $EndSheet
+$Sheet
+S 5150 2300 1300 1425
+U 5C2D1681
+F0 "uad_analog_panel" 50
+F1 "uad_analog_panel.sch" 50
+$EndSheet
 $EndSCHEMATC
